@@ -1,6 +1,9 @@
-export function Index() {
+import React from 'react'
+import '../App.css'
+
+export function Login() {
     return (
-        <div className="App">
+        <div className="Login">
             <header className="App-header">
                 <div className="App-Form">
                     <form>
@@ -13,11 +16,11 @@ export function Index() {
                         </div>
                         <button className="btnSub">Entrar</button>
                         <ul>
-                            <a href="/home">Cadastre-se</a>
+                            <a href="./signup">Cadastre-se</a>
                         </ul>
                     </form>
                 </div>
             </header>
         </div>
-    );
+    )
 }
