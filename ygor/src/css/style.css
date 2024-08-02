@@ -1,11 +1,12 @@
-body, html {
+body,
+html {
     height: 100%;
     margin: 0;
     font: 400 15px / 1.8 "Lato", sans-serif;
     color: #777;
 }
 
-p{
+p {
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
@@ -19,7 +20,25 @@ p{
     min-height: 100%;
 }
 
-.bgimg-1, .bgimg-2, .bgimg-3 {
+.bgimg-2 {
+    background-image: url(img/img_parallax2.jpg);
+    min-height: 400px;
+}
+
+.bgimg-3 {
+    background-image: url(img/dieta.png);
+    min-height: 400px;
+}
+
+.bgimg-4 {
+    background-image: url(img/academia.jpeg);
+    min-height: 400px;
+}
+
+.bgimg-1,
+.bgimg-2,
+.bgimg-3,
+.bgimg-4 {
     position: relative;
     opacity: 0.65;
     background-attachment: fixed;
@@ -50,7 +69,7 @@ div {
     letter-spacing: 10px;
 }
 
-.who-i-am{
+.who-i-am {
     color: #777;
     background-color: white;
     text-align: center;
@@ -58,26 +77,23 @@ div {
     text-align: justify;
 }
 
-.title1{
+.title1 {
     text-align: center;
 }
 
-.bgimg-2 {
-    background-image: url(img/img_parallax2.jpg);
-    min-height: 400px;
-}
 
-.guidance{
+
+.guidance {
     background-color: transparent;
     font-size: 25px;
     color: #f7f7f7;
 }
 
-.relative{
+.relative {
     position: relative;
 }
 
-.depositions{
+.depositions {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 20px;
@@ -86,19 +102,22 @@ div {
     text-align: center;
 }
 
-img{
+img {
     min-width: 50%;
     margin-right: 20px;
     min-height: 50%;
     object-fit: cover;
 }
 
-.dep-1, .dep-2, .dep-3, .dep-4{
+.dep-1,
+.dep-2,
+.dep-3,
+.dep-4 {
     display: flex;
     align-items: center;
 }
 
-.dep{
+.dep {
     margin: 10px;
     margin-right: 5%;
     text-align: justify;
