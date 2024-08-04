@@ -6,8 +6,8 @@ import { Home } from './components/home'
 function App() {
   return (
     <div className='App'>
-      {/* <Login /> */}
-      {/* <Signup /> */}
+      <Login />
+      <Signup />
       <Home />
     </div>
   )

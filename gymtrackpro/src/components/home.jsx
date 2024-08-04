@@ -1,9 +1,9 @@
 import React from "react";
-import "../style.css"
+import "../output.css"
 
 export function Home() {
     return (
-        <div className="home">
+        <div className="text-3xl font-bold underline">
             <nav>
                 <ul>
                     <li><a href="#">Home</a></li>
