@@ -1,5 +1,5 @@
 import React from "react";
-import "../output.css"
+
 
 export function Home() {
     return (
