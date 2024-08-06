@@ -1,6 +1,5 @@
 import React from 'react'
 
-
 export function Login() {
     return (
         <div className="flex justify-center items-center h-screen relative bg-slate-900">
