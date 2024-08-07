@@ -2,13 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: black;
+    color: #00ff00;
 }
 
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background: #f5f5f5;
-    color: #333;
+    /* background: #f5f5f5; */
+    /* color: #333; */
 }
 
 .bgimg-1,
@@ -22,15 +24,13 @@ body {
     background-color: black;
 }
 
-/* .bgimg-1 {
-    background-image: url(img/fundo.jpg);
+.bgimg-1 {
+    background-image: url(img/fundoverde.jpg);
 }
 
 .bgimg-2 {
-    background-image: url(img/fundo.jpg);
+    background-image: url(img/fundoverde.jpg);
 }
-
-*/
 
 .bgimg-4 {
     background-image: url(img/academia.jpg);
@@ -41,18 +41,23 @@ body {
     background-image: url(img/ovofundo.jpg);
 }
 
+.border {
+    background-color: transparent;
+}
+
 .caption {
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    color: #fff;
+    /* color: #fff; */
     text-align: center;
     font-size: 24px;
+    background-color: transparent;
 }
 
 .caption span.border {
-    background-color: rgba(0, 0, 0, 0.7);
+    /* background-color: rgba(0, 0, 0, 0.7); */
     padding: 20px;
     font-size: 24px;
     letter-spacing: 2px;
@@ -61,23 +66,28 @@ body {
 }
 
 .sub {
+    background-color: transparent;
     font-size: 32px;
     color: #00ff00;
 }
 
-.sub3 {
+.sub2 {
     color: white;
+}
+
+.sub3 {
+    color: #00ff00;
     font-size: 32px;
 }
 
 .first {
     display: flex;
     align-items: center;
-    background: #fff;
+    background: black;
     padding: 20px;
     margin-bottom: 30px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 100px;
+    box-shadow: 0 0 10px #00ff00;
 }
 
 .first div {
@@ -112,7 +122,7 @@ body {
     font-size: 36px;
     margin-bottom: 20px;
     text-align: center;
-    color: #333;
+    color: #00ff00;
 }
 
 .who-i-am p,
@@ -139,7 +149,9 @@ body {
     background-size: cover;
     background-position: center;
     margin-right: 20px;
-    border-radius: 10px;
+    /* border-radius: 10px; */
+    border-radius: 100px;
+    box-shadow: 0 0 10px #00ff00;
 }
 
 .title1 {
@@ -170,11 +182,11 @@ body {
 .depositions .dep-4 {
     display: flex;
     align-items: center;
-    background: #fff;
+    background: black;
     padding: 20px;
     margin-bottom: 30px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px #00ff00;
 }
 
 .depositions .dep-1 div,
@@ -295,7 +307,7 @@ body {
 }
 
 .plan-header {
-    background-color: #00ff00;
+    background-color: #00ff00e3;
     color: #262626;
     padding: 20px;
 }
@@ -319,10 +331,6 @@ body {
 .plan-features li {
     padding: 15px;
     border-top: 1px solid #00ff00;
-}
-
-.month {
-    color: white;
 }
 
 .pag {
@@ -372,6 +380,10 @@ body {
     .amount,
     .contacts {
         padding: 50px 15px;
+    }
+
+    .title1 {
+        margin: 20px;
     }
 }
 
@@ -481,6 +493,12 @@ body {
         height: 300px;
     }
 
+    .who-i-am {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .title1 h3 {
         font-size: 18px;
     }
@@ -549,12 +567,12 @@ body {
     }
 
     .sub2 {
-        color: white;
+        /* color: white; */
         font-size: 24px;
     }
 
     .sub3 {
-        color: white;
+        /* color: white; */
         font-size: 24px;
     }
 
