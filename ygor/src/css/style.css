@@ -562,6 +562,10 @@ body {
         padding: 10px;
     }
 
+    .sub p {
+        font-size: 26px;
+    }
+
     .sub1 {
         width: 350px;
         font-size: 24px;
