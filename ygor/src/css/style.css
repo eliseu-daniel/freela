@@ -19,9 +19,10 @@ body {
     background-position: center;
     height: 100vh;
     position: relative;
+    background-color: black;
 }
 
-.bgimg-1 {
+/* .bgimg-1 {
     background-image: url(img/fundo.jpg);
 }
 
@@ -29,12 +30,15 @@ body {
     background-image: url(img/fundo.jpg);
 }
 
-.bgimg-3 {
-    background-image: url(img/fundo.jpg);
-}
+*/
 
 .bgimg-4 {
-    background-image: url(img/fundo.jpg);
+    background-image: url(img/academia.jpg);
+}
+
+.bgimg-3 {
+
+    background-image: url(img/ovofundo.jpg);
 }
 
 .caption {
@@ -53,6 +57,17 @@ body {
     font-size: 24px;
     letter-spacing: 2px;
     border-radius: 10px;
+    font-size: 32px;
+}
+
+.sub {
+    font-size: 32px;
+    color: #00ff00;
+}
+
+.sub3 {
+    color: white;
+    font-size: 32px;
 }
 
 .first {
@@ -260,27 +275,54 @@ body {
     margin-right: 50px;
 }
 
-.table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 30px;
+.pricing-table {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px;
 }
 
-.table th,
-.table td {
-    padding: 15px;
+.plan {
+    background-color: #262626;
+    border: 2px solid #00ff00;
+    border-radius: 8px;
+    overflow: hidden;
+    flex: 1;
+    min-width: 250px;
+    max-width: 300px;
     text-align: center;
 }
 
-.table th {
-    background: #333;
-    color: #fff;
-    font-size: 18px;
+.plan-header {
+    background-color: #00ff00;
+    color: #262626;
+    padding: 20px;
 }
 
-.table td {
-    background: #f9f9f9;
-    border: 1px solid #ddd;
+.plan-header h2 {
+    margin: 0;
+}
+
+.plan-header p {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.plan-features {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+.plan-features li {
+    padding: 15px;
+    border-top: 1px solid #00ff00;
+}
+
+.month {
+    color: white;
 }
 
 .pag {
@@ -354,6 +396,10 @@ body {
         width: 400px;
         height: 400px;
         margin-right: 0;
+    }
+
+    .title1 {
+        padding: 20px;
     }
 
     .title1 h3 {
@@ -487,9 +533,29 @@ body {
 
 @media (max-width: 576px) {
 
+
+    .border {
+        width: 350px;
+    }
+
     .caption {
         font-size: 16px;
         padding: 10px;
+    }
+
+    .sub1 {
+        width: 350px;
+        font-size: 24px;
+    }
+
+    .sub2 {
+        color: white;
+        font-size: 24px;
+    }
+
+    .sub3 {
+        color: white;
+        font-size: 24px;
     }
 
     .first {
@@ -505,6 +571,12 @@ body {
     .ygorPrincipal::before {
         width: 200px;
         height: 200px;
+    }
+
+    .who-i-am {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .title1 h3 {
