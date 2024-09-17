@@ -11,7 +11,7 @@ export function Login() {
                         <input className="rounded-md p-1 password" id="password" type="password" placeholder="Senha" />
                     </div>
                     <div className='flex justify-center '>
-                        <button className=" rounded-md bg-zinc-600 hover:bg-cyan-500 p-2 text-cyan-300">Entrar</button>
+                        <button className=" rounded-md bg-zinc-600 hover:bg-cyan-500 p-2 text-cyan-300" href="./home">Entrar</button>
                     </div>
                     <div className='flex justify-center'>
                         <ul >
