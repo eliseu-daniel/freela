@@ -1,11 +1,16 @@
-import { createBrowserRouter, createRoutesFromElements, Route, Routes } from "react-router-dom"
+import * as React from "react"
+import { createBrowserRouter, createRoutesFromElements, Route } from "react-router-dom"
+import { Login } from './components/Login'
+import { Signup } from './components/signup'
+import { Home } from './components/home'
 
+export const router = 
 createBrowserRouter(
     createRoutesFromElements(
-        <Routes>
+        <Route>
             <Route path="/" element={<Login />} />
             <Route path="/signup" element={<Signup />} />
-            <Route path="/home" element={<Home />} />
-        </Routes>
+            <Route path="home" element={<Home />} />
+        </Route>
     )
 )

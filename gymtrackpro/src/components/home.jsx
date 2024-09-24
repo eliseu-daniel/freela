@@ -1,10 +1,10 @@
 import React from "react";
 
-
 export function Home() {
     return (
+        <header className="h-screen relative bg-slate-700">
         <div className="text-3xl font-bold underline">
-            <nav>
+            <nav className="flex justify-items-center">
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Dieta</a></li>
@@ -12,5 +12,6 @@ export function Home() {
                 </ul>
             </nav>
         </div>
+        </header>
     )
 }
